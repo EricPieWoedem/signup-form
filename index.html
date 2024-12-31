@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="split-container">
+      <div class="image-side">
+        <div class="logo-container">
+          <div class="logo-background">
+            <img src="odin.png" alt="Odin logo" />
+            <p class="logo-text">ODIN</p>
+          </div>
+        </div>
+        <p>
+          Photo by
+          <a
+            class="link"
+            href="https://unsplash.com/@timreb9?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            target="_blank"
+            >Tim Rebkavets</a
+          >
+          on
+          <a
+            class="link"
+            href="https://unsplash.com/photos/person-standing-on-rock-formation-near-body-of-water-during-daytime-8_5YQKc2zHU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            target="_blank"
+            >Unsplash</a
+          >
+        </p>
+      </div>
+      <div class="content-side">
+        <div class="content-text-top">
+          <h1>Hello, welcome to ODIN.</h1>
+          <p>Sign up now and let's do this!</p>
+        </div>
+        <div class="form-section">
+          <form action="#">
+            <div class="input-field-container">
+              <div class="input-field">
+                <div class="first-name">
+                  <label for="first-name">FIRST NAME</label>
+                  <input
+                    type="text"
+                    id="first-name"
+                    name="first-name"
+                    required
+                  />
+                </div>
+                <div class="last-name">
+                  <label for="last-name">LAST NAME</label>
+                  <input type="text" id="last-name" name="last-name" required />
+                </div>
+                <div class="email">
+                  <label for="email">EMAIL</label>
+                  <input type="email" id="email" name="user-email" required />
+                </div>
+                <div class="phone">
+                  <label for="phone-number">PHONE NUMBER</label>
+                  <input
+                    type="tel"
+                    id="phone-number"
+                    name="user-phone-number"
+                    required
+                  />
+                </div>
+                <div class="password">
+                  <label for="password">PASSWORD</label>
+                  <input
+                    type="password"
+                    id="password"
+                    name="user-passwd"
+                    required
+                  />
+                </div>
+                <div class="confirm-password">
+                  <label for="password">CONFIRM PASSWORD</label>
+                  <input
+                    type="password"
+                    id="password"
+                    name="user-passwd"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="button">
+              <button type="submit" class="btn">Create Account</button>
+              <div class="login">
+                <p>
+                  Already have an account?
+                  <span><a href="#" class="login-text">Log in</a></span>
+                </p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
