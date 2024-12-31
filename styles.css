@@ -37,6 +37,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: rgb(246, 251, 255);
   }
   
   .split-container {
@@ -47,8 +48,7 @@ body {
   .image-side {
     height:100%;
     flex: 1.5;
-    background-color: #f4f4f4;
-     background-image: url("image.jpg");
+    background-image: url("image.jpg");
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -99,7 +99,6 @@ body {
   .content-side {
     flex: 2.5;
     padding: 20px;
-    background-color: rgb(246, 251, 255);
     height: 100%;
    
   }
